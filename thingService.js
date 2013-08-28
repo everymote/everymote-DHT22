@@ -4,13 +4,18 @@ var Sensor = require("sensor-am2302"),
 
 var readTemp = function(callback){
     temp_hum.read(function(err, data) {
-    if (err) {
-        console.error(err);
-    } else {
-        callback(data);
-        console.log("Temp: ", data.temp);
-        console.log("Hum:  ", data.hum);
+    try{
+    	if (err) {
+        	console.error(err);
+    	} else {
+        	callback(data);
+        	//console.log("Temp: ", data.temp);
+        	console.log("Hum:  ", data.hum);
+    	}
+    }catch(e){
+    	console.log(e);
     }
+    
 });
 };
 

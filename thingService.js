@@ -10,7 +10,7 @@ var readTemp = function(callback){
     	} else {
         	callback(data);
         	//console.log("Temp: ", data.temp);
-        	console.log("Hum:  ", data.hum);
+        	//console.log("Hum:  ", data.hum);
     	}
     }catch(e){
     	console.log(e);

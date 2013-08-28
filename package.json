@@ -1,0 +1,27 @@
+{
+  "name": "everymote-DHT22",
+  "version": "0.0.1",
+  "description": "Connect DHT22 temperature-humidity sensor to everymote ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/everymote/everymote-DHT22.git"
+  },
+  "keywords": [
+    "iot",
+    "Internet of Things",
+    "everymote",
+    "DHT22"
+  ],
+  "author": "Marcus Olsson",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "8d10a6b5cab378747acb5d26a454c6d9f6edc048",
+  "dependencies": {
+    "socket.io-client": "~0.9.11",
+    "sensor-am2302":""
+  }
+}

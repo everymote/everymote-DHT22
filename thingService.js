@@ -1,4 +1,4 @@
-var Sensor = require("sensor-am2303"),
+var Sensor = require("sensor-am2302"),
     temp_hum = new Sensor({pin:4}),
     config = require('./config');
 

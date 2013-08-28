@@ -41,7 +41,7 @@ var createThing = function(){
         readTemp(update);
     };
     
-    var intervalId = setInterval(timeForUpdate, 3000);
+    var intervalId = setInterval(timeForUpdate, 10000);
 	return thing;
 };
 
